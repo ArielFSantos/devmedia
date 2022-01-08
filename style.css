@@ -14,13 +14,13 @@ header {
     
 }
 #logo{
-    padding-left: 5vw;
+    padding-left: 10px;
+    width: 10vw;
     display: inline;
 }
 header nav {
-    width: 68vw;
+    width: 80vw;
     text-align: right;
-    
 
     display: inline-block;
 }
@@ -37,7 +37,7 @@ header nav {
 main {
     
     margin: auto;
-    width: 70vw;
+    width: 80vw;
     position: absolute;
     left: 0px;
     right: 0px;
@@ -91,5 +91,13 @@ footer {
     top: 89%;
      
     
+    
+}
+input{
+    border-radius: 10px;
+    border: 0px;
+    height: 35px;
+    width: 230px;
+
     
 }
