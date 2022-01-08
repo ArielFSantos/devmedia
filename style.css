@@ -7,7 +7,7 @@
 }
 header {
     font-weight: bold;
-    background-color: rgba(128, 128, 128, 0.486);
+    background-color: rgba(175, 173, 173, 0.973);
     padding: 40px;
     
    
@@ -37,13 +37,18 @@ header nav {
 main {
     
     margin: auto;
-    width: 60vw;
-    position: relative;
+    width: 70vw;
+    position: absolute;
+    left: 0px;
+    right: 0px;
     
     
 }
 main  p {
     padding-top: 20px;
+}
+article{
+    text-align: center;
 }
 body {
     background-color: rgba(128, 128, 128, 0.342);
@@ -79,11 +84,11 @@ body {
 footer {
     width: 100%;
     font-weight: bold;
-    background-color: rgba(128, 128, 128, 0.486);
+    background-color: rgba(175, 173, 173, 0.973);
     padding: 30px 0px;
     text-align: center;
-    position: sticky;
-    
+    position: fixed;
+    top: 92%;
      
     
     
